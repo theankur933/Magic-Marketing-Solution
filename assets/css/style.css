@@ -1,0 +1,579 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 190px;
+  height: 76px;
+}
+
+header a {
+  background-color: #97be3d;
+  padding: 6px 20px;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+.btn a,
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.banner {
+  background-image: url("../../assets/images/banner.png");
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 8%;
+}
+
+.banner .right-banner img {
+  position: relative;
+  height: 431px;
+  right: 25%;
+}
+
+.banner-info {
+  margin: 6% 0 0 9%;
+}
+
+.banner-info h1 {
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  color: #ffffff;
+  line-height: 1.3em;
+  width: 56%;
+}
+
+.banner-info p {
+  color: #fff;
+  padding-bottom: 10px;
+  width: 50%;
+  margin-top: 1%;
+}
+
+.banner-form h3 {
+  color: #edf000;
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 1.3em;
+  width: 66%;
+  margin-top: 3%;
+}
+
+.banner-form input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  outline: 0;
+  margin-top: 3%;
+}
+
+.phone-number {
+  margin: 30px 0;
+}
+
+.phone-number input {
+  width: 60%;
+}
+
+.banner-form button {
+  background-color: #ff9b18;
+  padding: 10px 10px;
+  width: 60%;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.sales-heading h1 {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 38px;
+}
+
+.card-box {
+  margin-top: 3%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.marketing {
+  position: relative;
+  left: 11%;
+}
+
+.card {
+  width: 328px;
+  height: 227px;
+  padding: 10px 18px;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card p {
+  margin-top: 2%;
+}
+
+.book-call {
+  text-align: center;
+}
+
+.book-call button {
+  font-size: 34px;
+  color: #fff;
+  background-color: #97be3d;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5%;
+}
+
+.content h2,
+.content p {
+  line-height: 1.3em;
+  width: 70%;
+}
+
+.marketingg {
+  margin-left: 4%;
+}
+
+.share {
+  margin-top: 5%;
+}
+
+.content h2 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.content p {
+  padding-bottom: 1em;
+  margin-top: 1%;
+}
+.btn {
+  margin-top: 1%;
+}
+
+.btn a {
+  padding: 10px 10px;
+  background-color: #97be3d;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.right-side {
+  flex-wrap: wrap;
+  position: relative;
+  left: 5%;
+}
+
+.card-1 {
+  width: 235px;
+  height: 221px;
+  padding: 30px 30px;
+  line-height: 25px;
+  box-shadow: 0px 0px 24px #e0e4e7;
+}
+
+.person-box {
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+.card-3 {
+  width: 388px;
+  height: 402px;
+  line-height: 1.6em;
+  text-align: center;
+  box-shadow: 0px 47px 48px 0px rgb(100 146 188 / 20%);
+}
+
+.card-3 p strong {
+  position: relative;
+  top: 50px;
+}
+
+.test-heading h2 {
+  text-align: center;
+  margin-top: 8%;
+  font-size: 32px;
+}
+
+.test-heading p {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.card-3 img {
+  width: 90px;
+  text-align: center;
+  height: 90px;
+  margin-top: 30%;
+  border-radius: 50%;
+}
+
+.amazing-past {
+  background-image: linear-gradient(
+    180deg,
+    rgba(12, 113, 195, 0.16) 0%,
+    rgba(124, 218, 36, 0.03) 100%
+  ) !important;
+  height: 608px;
+}
+
+.past-heading {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.past-heading h2 strong {
+  position: relative;
+  top: 50px;
+  font-size: 32px;
+}
+
+.images {
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.footer {
+  background-color: #494949;
+  text-align: center;
+  line-height: 3;
+  margin-top: 5%;
+}
+
+.footer-para {
+  gap: 20px;
+}
+
+.footer-para p {
+  color: white;
+  margin-top: 70px;
+}
+
+.footer-down-para p {
+  color: #999;
+}
+
+@media only screen and (max-width: 800px) {
+  /*Big smartphones [426px -> 600px]*/
+  header a {
+    font-size: 10px;
+  }
+
+  .card {
+    margin-top: 10px;
+  }
+
+  .banner,
+  .card-box,
+  .contact-section {
+    flex-direction: column;
+    padding-right: 30px;
+  }
+
+  .banner .right-banner img {
+    height: 120px;
+    margin-top: 10px;
+  }
+
+  .sales-heading h1 {
+    font-size: 16px;
+  }
+
+  .share {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .right-side {
+    margin-top: 7%;
+    margin-left: 18%;
+  }
+
+  .person-box,
+  .images {
+    flex-direction: column;
+  }
+
+  .images img {
+    margin-top: 5%;
+  }
+
+  .so-container {
+    margin-top: 90%;
+  }
+
+  form {
+    text-align: center;
+    margin-top: 40%;
+  }
+
+  .footer {
+    margin-top: 80vh;
+  }
+
+  .marketingg {
+    margin-left: 16%;
+  }
+}
+
+/* Other CSS */
+.so-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(188, 245, 197);
+}
+
+.card-container {
+  width: 90vw;
+  height: 70vh;
+  background-color: white;
+  margin: auto;
+  position: relative;
+  top: 40px;
+  display: flex;
+}
+
+.card1 {
+  width: 30vw;
+  height: 40vh;
+  border-right: 1px solid black;
+  padding: 30px;
+}
+
+.num {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: yellow;
+  border: 1px solid yellow;
+  position: absolute;
+  margin-left: 380px;
+  padding: 5px;
+}
+
+.our-process {
+  width: 100vw;
+  height: 95vh;
+  background-color: #def3f6;
+}
+
+.img {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.three-card {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 85px;
+}
+
+.card2 {
+  width: 25vw;
+  height: 40vh;
+  background-color: white;
+  color: black;
+  border-bottom: 5px solid blue;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #888888;
+  text-align: center;
+}
+
+.btmcard {
+  margin-top: 10px;
+}
+
+.get_startbtn {
+  width: 170px;
+  height: 40px;
+  background-color: greenyellow;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.magic-computer {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content-cont {
+  max-width: 300px;
+  height: 300px;
+  margin: auto;
+  padding: 5px;
+}
+
+.facebook-banner {
+  width: 100vw;
+  height: 40vh;
+  background-image: url(./img/fb.jpeg),
+    linear-gradient(100deg, #6b73ff 0%, #000dff 100%) !important;
+  background-size: cover;
+}
+
+.all_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.small_card {
+  max-width: 500px;
+  align-items: center;
+  height: 300px;
+  display: flex;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.contact-container {
+  margin-top: 50px;
+  height: 90vh;
+  background-color: rgba(255, 255, 255, 0.82);
+  border-bottom-color: #d6d6d6;
+  box-shadow: 0px 12px 18px -6px rgb(0 0 0 / 30%);
+}
+
+.contact-section {
+  justify-content: space-around;
+}
+
+.info {
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  padding: 5px;
+}
+
+.info > h2 {
+  margin-top: 50px;
+}
+
+input[type="text"] {
+  width: 60%;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid greenyellow;
+}
+
+textarea {
+  width: 60%;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: 0;
+}
+
+.str {
+  color: red;
+}
+
+hr {
+  width: 50px;
+  height: 5px;
+  background-color: yellow;
+  color: yellow;
+  margin: auto;
+  border: none;
+}
+
+.contactbtn {
+  width: 60%;
+  height: 44px;
+  background-color: greenyellow;
+  color: white;
+  border: none;
+  margin-top: 3%;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .num {
+    display: block;
+    width: 25px;
+    margin-top: 5px;
+    height: 25px;
+    border-radius: 50%;
+    color: yellow;
+    border: 1px solid yellow;
+    position: absolute;
+    margin-left: 75px;
+    padding: 3px;
+  }
+  .card-container {
+    width: 90vw;
+    height: 60vh;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    display: flex;
+  }
+  .img {
+    width: 65px;
+  }
+  .card1 {
+    width: 30vw;
+    height: 40vh;
+    border-right: 1px solid black;
+    padding: 0px;
+  }
+  .card1 p {
+    font-size: 8px;
+  }
+  .magic-computer > div > img {
+    width: 200px;
+    margin-top: 120px;
+    margin-left: 40px !important;
+  }
+  .content-cont {
+    margin-top: 20px;
+  }
+  .facebook-banner {
+    width: 100vw;
+    height: 25vh;
+    margin-top: 153px;
+    background-image: url(../images/facebk1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
